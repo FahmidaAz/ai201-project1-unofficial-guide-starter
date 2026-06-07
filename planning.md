@@ -10,6 +10,13 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+Tech Career Advice — The Unofficial Guide
+
+This domain covers practical tech career knowledge including coding interview 
+preparation, resume tips, salary negotiation, job searching, and bootcamp 
+reviews. This knowledge is valuable but hard to find officially — it lives 
+scattered across Reddit threads, blogs, and forums rather than any single 
+authoritative source.
 
 ---
 
@@ -20,16 +27,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |r/cscareerquestions wiki |Resume tips & interview advice |reddit.com/r/cscareerquestions/wiki |
+| 2 |Interviewing.io blog |Technical interview preparation |interviewing.io/blog |
+| 3 |levels.fyi blog |Salary negotiation guide |levels.fyi/blog |
+| 4 |Course Report |CodePath bootcamp review |coursereport.com/schools/codepath |
+| 5 |GitHub — coding interview |System design prep guide |github.com/donnemartin/system-design-primer |
+| 6 |r/cscareerquestions |How to get a referral post |reddit.com/r/cscareerquestions |
+| 7 |LinkedIn official blog |LinkedIn profile optimization tips |linkedin.com/blog |
+| 8 |Blind app blog |Big Tech vs Startup comparison |teamblind.com/blog |
+| 9 |interviewing.io |What to do after rejection |interviewing.io/blog |
+| 10 |reddit r/learnprogramming |Beginner to first tech job guide |reddit.com/r/learnprogramming/wiki |
 
 ---
 
@@ -40,11 +47,14 @@
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 300 characters
 
-**Overlap:**
+**Overlap:** 50 characters
 
-**Reasoning:**
+**Reasoning:**Tech career advice tends to be written in short, dense tips 
+and bullet points. A 300-character window captures roughly one complete 
+tip or advice point. Overlap of 50 ensures advice that spans two chunks 
+is still retrievable intact.
 
 ---
 
@@ -56,11 +66,16 @@
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:**all-MiniLM-L6-v2 (via sentence-transformers)
 
-**Top-k:**
+**Top-k:** 5
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:**In a real production system I would 
+consider OpenAI's text-embedding-3-small for higher accuracy, but it 
+costs money per token. all-MiniLM-L6-v2 is free, fast, and runs locally. 
+For a multilingual audience I'd consider multilingual-e5-base. For longer 
+documents, a model with larger context length like text-embedding-3-large 
+would reduce chunking issues.
 
 ---
 
@@ -73,11 +88,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 |What should I put on my resume if I have no experience? |Include projects, GitHub links, and relevant coursework |
+| 2 |How do I negotiate a higher salary offer? |Have a competing offer or market data, respond by email not phone |
+| 3 |How many LeetCode problems do I need to solve before interviews? |Around 100-150 focusing on patterns not memorization |
+| 4 |Is a coding bootcamp worth it for getting a tech job? |Depends on quality — CodePath and top bootcamps have good placement |
+| 5 |How do I get a referral at a big tech company? |Connect on LinkedIn, ask former classmates, be specific about the role |
 
 ---
 
@@ -87,9 +102,13 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.Noisy Reddit text — Reddit posts contain slang, jokes, and off-topic 
+   replies that could get embedded and retrieved as if they were real advice, 
+   hurting response quality.
 
-2.
+2.Chunks splitting key advice — A tip like "Do X, but never do Y" could 
+   get split so only "Do X" is retrieved, giving incomplete or misleading 
+   answers.
 
 ---
 
@@ -100,7 +119,9 @@
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
-
+Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
+     (os + open())    (ingest.py)  (sentence-transformers   (ChromaDB      (Claude/
+                                    + ChromaDB)             .query())      OpenAI API)
 ---
 
 ## AI Tool Plan
@@ -115,8 +136,20 @@
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Ingestion and chunking:**I'll give Claude my Documents table and Chunking Strategy section and ask
+it to implement load_documents() and chunk_document() with chunk_size=300
+and overlap=50. Each chunk should return text, source, and chunk_id.
+I'll verify by checking total chunk count and printing 3 sample chunks
+to confirm source attribution is correct.
 
-**Milestone 4 — Embedding and retrieval:**
+**Milestone 4 — Embedding and retrieval:**I'll give Claude my Retrieval Approach section and ask it to implement
+embed_and_store() using ChromaDB and retrieve() using _collection.query()
+returning text, source, and distance. I'll verify by running a test query
+like "how do I negotiate salary" and checking the top 5 results come from
+relevant documents.
 
-**Milestone 5 — Generation and interface:**
+**Milestone 5 — Generation and interface:**I'll give Claude my Evaluation Plan questions and ask it to implement
+generate_response() using only retrieved chunks as context, with source
+attribution showing which document each answer came from. I'll verify
+using all 5 test questions and confirming answers are grounded in the
+documents and not from the model's general knowledge.
