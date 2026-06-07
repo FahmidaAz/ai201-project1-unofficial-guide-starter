@@ -1,0 +1,51 @@
+TECH RESUME TIPS — Advice from Engineers and Hiring Managers
+
+KEEP IT TO ONE PAGE
+Most recruiters spend less than 30 seconds on a resume. Keep it to one page unless you have 10+ years of experience. Cut anything older than 5 years if you're running out of space.
+
+USE A SIMPLE FORMAT
+Avoid tables, columns, graphics, and icons. Many companies use Applicant Tracking Systems (ATS) that can't parse fancy layouts. Stick to plain text with clear section headers: Education, Experience, Projects, Skills.
+
+QUANTIFY EVERYTHING
+Bad: "Improved website performance"
+Good: "Reduced page load time by 40% by implementing lazy loading and caching, improving user retention by 15%"
+Numbers make your impact concrete and memorable.
+
+TAILOR YOUR RESUME FOR EACH JOB
+Read the job description carefully. Mirror the exact keywords they use. If they say "distributed systems" and your resume says "cloud infrastructure," update it. ATS filters by keyword match.
+
+PROJECTS MATTER MORE THAN GPA
+For new grads and bootcamp graduates, a strong projects section beats a high GPA. Show 2-3 projects with: what it does, what stack you used, and a GitHub link. Deployed projects are even better.
+
+GITHUB LINK IS MANDATORY
+Every tech resume should have a GitHub link. Recruiters and engineers will check it. Make sure your pinned repos have README files that explain the project clearly.
+
+SKILLS SECTION
+List your languages, frameworks, tools, and databases. Be honest — if you put it on your resume, expect to be asked about it in depth. Don't list something you Googled once.
+
+AVOID THESE COMMON MISTAKES
+- Listing "Microsoft Word" or "Google Docs" as skills
+- Using an unprofessional email address
+- Including a photo (not standard in the US)
+- Listing references as "available upon request"
+- Using passive voice: "Was responsible for" → "Built", "Led", "Designed"
+
+ACTION VERBS TO USE
+Built, Designed, Implemented, Optimized, Reduced, Increased, Led, Deployed, Automated, Refactored, Integrated, Migrated, Architected, Shipped
+
+EDUCATION SECTION
+List your degree, school, graduation year, and GPA (if above 3.5). For bootcamp graduates, list the bootcamp with completion date and any relevant certifications.
+
+THE BEST RESUME FORMAT FOR NEW GRADS
+1. Name + Contact Info + GitHub + LinkedIn
+2. Education
+3. Technical Skills
+4. Projects (2-3 with descriptions)
+5. Experience (internships, part-time, freelance)
+6. Certifications (optional)
+
+HOW TO GET FEEDBACK
+Post your resume on Reddit r/cscareerquestions with the "Resume Advice" flair. Remove personal info first. The community gives detailed, honest feedback. Blind app also has a resume review section.
+
+COVER LETTERS
+Most tech companies don't read cover letters. Focus your energy on the resume and portfolio. The exception is small startups and companies that explicitly ask for one.

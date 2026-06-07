@@ -1,0 +1,58 @@
+CODING INTERVIEW PREPARATION GUIDE — From Engineers Who've Been Through It
+
+HOW LONG DOES IT TAKE TO PREPARE?
+Most people need 2-4 months of consistent practice to be ready for FAANG-level interviews. For mid-level companies, 4-6 weeks is usually enough if you already have a CS foundation. Don't rush — it's better to delay applying than to bomb interviews at your dream company.
+
+WHAT TO STUDY
+Focus on these data structures and algorithms in order:
+1. Arrays and Strings
+2. Hash Maps and Sets
+3. Two Pointers
+4. Sliding Window
+5. Linked Lists
+6. Stacks and Queues
+7. Binary Search
+8. Trees and BST
+9. Graphs (BFS, DFS)
+10. Dynamic Programming (last, hardest)
+
+HOW MANY LEETCODE PROBLEMS DO YOU NEED?
+Quality over quantity. 100-150 problems done with deep understanding beats 300 problems memorized. After solving a problem, always ask: what is the pattern here? Can I apply this pattern elsewhere?
+
+THE BLIND 75
+The "Blind 75" is a curated list of 75 LeetCode problems that cover all major patterns. Many engineers swear by this list. Solving all 75 with full understanding is better than randomly grinding 500 problems.
+
+PRACTICE TALKING OUT LOUD
+Silent coding in interviews is a red flag. Practice explaining your thought process as you code. Say things like: "I'm thinking about using a hash map here because lookup is O(1)" or "My first approach is brute force O(n^2), but I think we can optimize this."
+
+THE INTERVIEW FORMAT AT MOST COMPANIES
+- 5 minutes: introductions and small talk
+- 5 minutes: clarify the problem (ask questions!)
+- 30 minutes: solve the problem while explaining
+- 5 minutes: analyze time and space complexity
+- 5 minutes: questions for the interviewer
+
+ALWAYS CLARIFY BEFORE CODING
+Before writing a single line of code, ask:
+- What are the input constraints?
+- Can the input be empty or null?
+- Should I handle negative numbers?
+- Is there a memory constraint?
+This shows maturity and prevents solving the wrong problem.
+
+TIME AND SPACE COMPLEXITY
+You must be able to analyze Big O for every solution. Practice this for every problem you solve. Interviewers always ask. Common complexities to know: O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n).
+
+BEHAVIORAL QUESTIONS (STAR FORMAT)
+Use the STAR format: Situation, Task, Action, Result.
+Prepare stories for: a time you failed, a conflict with a coworker, your biggest achievement, a time you led a project, a time you disagreed with your manager.
+
+SYSTEM DESIGN INTERVIEWS
+For senior roles, you'll get system design questions like "Design Twitter" or "Design a URL shortener." Study: load balancing, databases (SQL vs NoSQL), caching, message queues, CDNs, and horizontal vs vertical scaling.
+
+RESOURCES
+- LeetCode (neetcode.io for structured approach)
+- Cracking the Coding Interview (book)
+- System Design Primer (GitHub)
+- Pramp or interviewing.io for mock interviews
+- YouTube: NeetCode, TechLead, Clément Mihailescu

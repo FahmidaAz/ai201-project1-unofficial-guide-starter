@@ -1,0 +1,45 @@
+CODING BOOTCAMP REVIEWS AND ADVICE — Is a Bootcamp Worth It?
+
+ARE BOOTCAMPS WORTH IT?
+The honest answer: it depends on the bootcamp and your effort. Top bootcamps have strong job placement rates. Low-quality bootcamps take your money and leave you unprepared. Research carefully before paying.
+
+CODEPATH REVIEW
+CodePath is consistently rated as one of the best free tech education programs. Unlike paid bootcamps, CodePath partners with universities and offers free courses in Android development, iOS, cybersecurity, and technical interview prep. Their TIP (Technical Interview Prep) course is highly regarded for preparing students for FAANG-level interviews. Students report strong mentorship and a supportive community. CodePath has helped thousands of underrepresented students break into tech at companies like Google, Meta, Amazon, and Microsoft.
+
+APP ACADEMY REVIEW
+App Academy (a/A) is one of the most selective bootcamps with a strong reputation. They offer an income share agreement (ISA) model — you pay nothing upfront and pay back a percentage of your salary after getting a job. Curriculum covers Ruby on Rails, JavaScript, React, and more. Job placement rate reported at 90%+. Students say the program is intense — 60+ hours per week. Not for the faint of heart but highly effective.
+
+FULLSTACK ACADEMY REVIEW
+Fullstack Academy is known for strong outcomes in software engineering and cybersecurity. Based in New York City with campuses in Chicago. Curriculum covers JavaScript, React, Node.js, PostgreSQL. Students report strong career services and alumni network. Cost is around $17,000-$19,000.
+
+FLATIRON SCHOOL REVIEW
+Flatiron School (acquired by WeWork, now independent again) offers software engineering, data science, and cybersecurity tracks. Known for strong curriculum and career support. Cost around $16,000. Reviews are mixed post-WeWork acquisition but improving again.
+
+SELF-TAUGHT VS BOOTCAMP
+Many successful engineers are self-taught using free resources:
+- freeCodeCamp.org
+- The Odin Project
+- CS50 (Harvard's free online course)
+- MIT OpenCourseWare
+Self-teaching takes longer (12-18 months vs 3-6 months) but costs nothing.
+
+RED FLAGS WHEN CHOOSING A BOOTCAMP
+- Promises guaranteed job placement
+- Won't share actual employment statistics
+- No alumni you can talk to
+- High pressure sales tactics
+- ISA with very high percentage or long repayment period
+
+WHAT BOOTCAMP GRADUATES SAY
+"The bootcamp got me in the door, but I had to study independently for 3 more months to pass technical interviews."
+"The projects I built during the bootcamp were the main things I talked about in every interview."
+"Networking through my bootcamp cohort was more valuable than the curriculum itself."
+"Don't expect the bootcamp to get you a job — expect it to give you the skills to get yourself a job."
+
+AFTER THE BOOTCAMP — WHAT TO DO
+1. Build 2-3 strong portfolio projects (not tutorial clones)
+2. Contribute to open source
+3. Apply to 10+ jobs per day
+4. Practice LeetCode daily (Easy/Medium)
+5. Attend local tech meetups
+6. Connect with bootcamp alumni on LinkedIn

@@ -1,0 +1,47 @@
+BIG TECH VS STARTUP — Which Should You Choose?
+
+THE HONEST COMPARISON
+Neither is universally better. The right choice depends on what you value most: compensation, learning speed, stability, impact, or career trajectory. Here's what engineers who've done both say.
+
+COMPENSATION
+Big Tech wins on total compensation. FAANG companies pay $150k-$350k+ total comp for mid-level engineers. Startups often pay lower base salaries but offer equity that could be worth a lot — or nothing. Early-stage startup equity is a lottery ticket. Series B and later startups offer a better risk/reward balance.
+
+LEARNING SPEED
+Early-stage startups win here. At a startup you might own an entire feature, deploy to production on day 2, and learn backend, frontend, and DevOps simultaneously. At big tech, you might spend 6 months on one small component of a massive system. Many engineers say they learned more in 1 year at a startup than 3 years at big tech.
+
+STABILITY
+Big tech wins. Tech layoffs happen everywhere, but big tech companies have stronger financials and more cushion. Startups can shut down overnight. If you have financial obligations (mortgage, family), stability matters more.
+
+RESUME AND CAREER
+A big tech name on your resume opens doors everywhere for the rest of your career. "Ex-Google" or "Ex-Meta" is a signal that gets resumes read. Startup experience is valued too — especially if the startup grew or was acquired — but the brand recognition isn't the same.
+
+IMPACT
+Early-stage startups win. At a 10-person company, your work directly affects the product's survival. At Google, your work is one of thousands of contributions. If you want to feel your work matters, a startup gives you that more directly.
+
+WORK-LIFE BALANCE
+Varies wildly at both. Big tech teams range from 40-hour weeks to 60+ depending on team and culture. Startups often expect more hours but this varies hugely by founder culture. Ask specifically about on-call expectations and crunch culture during interviews.
+
+MENTORSHIP AND STRUCTURE
+Big tech wins. Large companies have formal mentorship programs, clear promotion ladders, performance review frameworks, and more senior engineers to learn from. At a 5-person startup, you might be the most senior engineer and have no one to learn from above you.
+
+WHICH TO CHOOSE AT DIFFERENT STAGES
+
+New grad with no experience: Big tech or well-known mid-size company first. The structure and mentorship accelerates your growth. The brand name helps long-term.
+
+2-3 years experience: Consider a growth-stage startup (Series A-C). You have enough foundation to contribute quickly and enough runway to grow fast.
+
+5+ years experience: Either works. Many engineers do big tech → startup → big tech cycles deliberately to maximize both learning and compensation.
+
+QUESTIONS TO ASK IN STARTUP INTERVIEWS
+- What is your runway? (How many months of cash do you have?)
+- What is the total funding raised and from whom?
+- What does the equity package look like? (Strike price, cliff, vesting)
+- What is the current valuation?
+- What does the path to liquidity look like? (IPO? Acquisition?)
+
+RED FLAGS AT STARTUPS
+- Won't tell you their runway
+- Equity without clear vesting terms
+- Founder expects 80-hour weeks as standard
+- No senior engineers (you'd be the only technical person)
+- Revenue is zero with no clear path to monetization

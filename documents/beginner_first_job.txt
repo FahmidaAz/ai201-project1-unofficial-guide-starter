@@ -1,0 +1,82 @@
+FROM BEGINNER TO FIRST TECH JOB — A Complete Roadmap
+
+HOW LONG DOES IT TAKE?
+With consistent effort (3-4 hours per day), most people go from complete beginner to job-ready in 12-18 months. Bootcamp graduates can do it in 6-9 months with intensive study. The range is wide because it depends on your starting point, time available, and how efficiently you study.
+
+STEP 1: LEARN YOUR FIRST LANGUAGE (2-3 months)
+Choose ONE language and stick with it. Don't jump around.
+Best for beginners: Python (simple syntax, versatile, great for data and web)
+Best for web jobs: JavaScript (runs everywhere, huge job market)
+Best for mobile: Swift (iOS) or Kotlin (Android)
+
+Resources (all free):
+- freeCodeCamp.org
+- The Odin Project (JavaScript/Ruby, project-based)
+- CS50 on edX (Harvard's intro CS course)
+- Python.org official tutorial
+
+STEP 2: LEARN WEB DEVELOPMENT BASICS (2-3 months)
+Even if you don't want to be a web developer, understanding the web is essential.
+- HTML and CSS (1-2 weeks)
+- JavaScript fundamentals (4-6 weeks)
+- One frontend framework: React (most in-demand) or Vue
+- One backend: Node.js/Express or Python/Django or Python/Flask
+- Databases: SQL basics (PostgreSQL or SQLite)
+
+STEP 3: BUILD PROJECTS (ONGOING, start here early)
+Projects matter more than anything else for your first job. Build things, not tutorials.
+Bad project: "I followed a YouTube tutorial to build a todo app"
+Good project: "I built a full-stack app that [solves a real problem] using [stack], deployed on [platform]"
+
+Project ideas that stand out:
+- Something that solves YOUR personal problem
+- A tool your family or community could use
+- An API that connects two things that don't usually work together
+- A clone of a real app with one unique twist
+
+STEP 4: PUT EVERYTHING ON GITHUB
+Every project needs a GitHub repo with:
+- Clear README (what it does, how to run it, screenshots)
+- Clean commit history (not just one giant commit)
+- Deployed link if possible (Vercel, Netlify, Railway, Render — all free tiers available)
+
+STEP 5: LEARN DATA STRUCTURES AND ALGORITHMS (2-3 months)
+You need this for technical interviews. Start with:
+- Arrays, strings, hash maps (most common in interviews)
+- Big O notation (you must be able to explain time complexity)
+- LeetCode Easy problems (aim for 30-50 before applying)
+Don't start this before you can build projects — context matters for learning.
+
+STEP 6: BUILD YOUR PROFESSIONAL PRESENCE
+- LinkedIn profile (see LinkedIn Tips document)
+- GitHub profile README
+- Personal portfolio website (optional but helpful)
+- Resume (one page, projects front and center)
+
+STEP 7: START APPLYING
+Apply broadly at first:
+- Target companies: small startups, local tech companies, agencies, non-profits with tech teams
+- Don't only apply to FAANG — your first job just needs to be a job where you write real code
+- Use: LinkedIn, Indeed, Wellfound (AngelList for startups), Built In NYC/SF/etc., company websites directly
+
+YOUR FIRST JOB GOALS
+Your first job doesn't need to be your dream job. It needs to:
+1. Pay you to write code
+2. Give you real-world engineering experience
+3. Expose you to professional engineering practices (code review, git workflow, sprints)
+
+After 1-2 years of real experience, every door opens. The barrier to your second job is much lower than the barrier to your first.
+
+THINGS THAT SLOW BEGINNERS DOWN
+- Tutorial hell: watching tutorials without building anything
+- Perfectionism: waiting until you're "ready" to apply
+- Jumping between languages and frameworks
+- Not asking for help when stuck for more than 30 minutes
+- Building in isolation without showing your work publicly
+
+COMMUNITY RESOURCES
+- CodePath (free courses, mentorship, career support)
+- Local tech meetups (meetup.com)
+- Discord servers: Reactiflux, Python Discord, The Odin Project
+- Reddit: r/learnprogramming, r/cscareerquestions, r/webdev
+- Twitter/X tech community (#100DaysOfCode)

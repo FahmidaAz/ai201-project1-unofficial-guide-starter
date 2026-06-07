@@ -1,0 +1,51 @@
+WHAT TO DO AFTER A JOB REJECTION — How to Bounce Back and Keep Going
+
+REJECTION IS NORMAL — THE NUMBERS DON'T LIE
+Even strong candidates get rejected 80-90% of the time. A software engineer with 3 years of experience might apply to 50 companies, get 15 phone screens, 5 technical interviews, and 2 offers. Rejection is not a sign you're unqualified — it's a statistical reality of the process.
+
+IMMEDIATELY AFTER REJECTION
+1. Give yourself 24 hours to feel disappointed. It's okay and normal.
+2. Don't send an angry or defensive reply.
+3. Send a gracious thank-you: "Thank you for letting me know. I enjoyed the process and hope to stay in touch. Could you share any feedback on areas to improve?"
+(Most companies won't give feedback due to legal reasons, but it doesn't hurt to ask.)
+
+ASK FOR FEEDBACK (POLITELY)
+Some recruiters will share feedback. When they do, it's gold. Common feedback categories:
+- Technical skills: "Your data structures were strong but system design needs work"
+- Communication: "We'd like to see clearer thought process during problem solving"
+- Culture fit: (Usually vague and not actionable)
+If you get specific feedback, prioritize fixing that exact thing before your next interview.
+
+REAPPLYING TO THE SAME COMPANY
+Most big tech companies have a waiting period of 6-12 months before you can reapply. Use that time to genuinely improve. Many engineers get hired on their second or third attempt. Getting rejected by Google once doesn't mean never — it means not yet.
+
+DIAGNOSING WHERE YOU FAILED
+- Rejected before phone screen: Resume or ATS keyword issue
+- Rejected after recruiter screen: Communication, enthusiasm, or background gaps
+- Rejected after technical phone screen: Coding skills need work
+- Rejected after onsite: Either technical depth or behavioral fit
+
+BUILDING A PIPELINE TO SURVIVE REJECTION
+Don't put all your energy into one company. Apply to 10-15 companies simultaneously. Create a spreadsheet tracking: company, role, date applied, stage, follow-up date. Treat job searching like a numbers game — more at-bats means more chances.
+
+MENTAL HEALTH DURING JOB SEARCH
+Long job searches (3-6+ months) are emotionally exhausting. Common advice from engineers who've been through it:
+- Set a daily limit: apply to 5 jobs per day, then stop for the day
+- Celebrate small wins: a recruiter screen is a win worth acknowledging
+- Talk to others going through the same thing: Reddit r/cscareerquestions, Discord communities
+- Take breaks from applying: one day per week with no job search activity
+- Separate your worth from the outcome: a rejection is not a judgment of your value as a person
+
+USING REJECTION TO IMPROVE
+After every failed technical interview, write down every problem you couldn't solve. Add them to your practice list. Study the solutions. Rejection interviews are actually the most valuable study sessions — you know exactly what you need to work on.
+
+WHEN TO CONSIDER ALTERNATIVE PATHS
+If you've applied to 100+ jobs with no offers after 6 months:
+- Consider a lower-level role to get experience (junior, associate, QA, data analyst)
+- Consider smaller companies and startups to get your first job
+- Consider contract work or freelance projects to build your portfolio
+- Get honest feedback on your resume and portfolio from experienced engineers
+- Consider if there's a skill gap that needs to be filled first
+
+YOU WILL GET A JOB
+Almost every engineer who keeps improving and keeps applying eventually gets a job. The ones who don't make it are the ones who give up. The job search is a test of persistence as much as technical skill.

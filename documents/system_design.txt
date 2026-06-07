@@ -1,0 +1,72 @@
+SYSTEM DESIGN INTERVIEW GUIDE — How to Design Large Scale Systems
+
+WHAT IS A SYSTEM DESIGN INTERVIEW?
+System design interviews test your ability to design large-scale distributed systems. You'll be asked open-ended questions like "Design Twitter," "Design YouTube," or "Design a URL shortener." There is no single correct answer — the interviewer is evaluating your thought process, not a perfect solution.
+
+WHO GETS SYSTEM DESIGN INTERVIEWS?
+Typically engineers with 3+ years of experience. Some companies give them to new grads for senior roles. If you're a new grad at a standard SWE role, you may skip this, but it's worth studying anyway.
+
+THE FRAMEWORK — HOW TO STRUCTURE YOUR ANSWER
+1. Clarify requirements (5 min)
+2. Estimate scale (5 min)
+3. High-level design (10 min)
+4. Deep dive into components (15 min)
+5. Identify bottlenecks and tradeoffs (5 min)
+
+STEP 1: CLARIFY REQUIREMENTS
+Ask questions before drawing anything:
+- How many users? Daily active users?
+- Read-heavy or write-heavy?
+- Does it need to be real-time?
+- Global or single region?
+- What are the most important features for MVP?
+
+STEP 2: ESTIMATE SCALE
+Back-of-envelope calculations show engineering maturity:
+- 1 million DAU posting once per day = 1M writes/day = ~12 writes/second
+- Each post is 1KB = 1GB/day of storage
+- With 5 years retention = ~2TB of data
+This tells you whether you need one database or a distributed system.
+
+KEY CONCEPTS TO KNOW
+
+Load Balancing: Distributes traffic across multiple servers. Prevents any single server from being overwhelmed. Round-robin, least connections, IP hash are common strategies.
+
+Caching: Store frequently accessed data in memory (Redis, Memcached) to reduce database load. Cache hit ratio is critical. Know when to invalidate cache.
+
+Database Choices:
+- SQL (PostgreSQL, MySQL): ACID transactions, structured data, complex queries
+- NoSQL (MongoDB, Cassandra, DynamoDB): High scale, flexible schema, eventual consistency
+
+CDN (Content Delivery Network): Serves static assets (images, videos, CSS) from servers close to the user. Reduces latency globally.
+
+Message Queues (Kafka, RabbitMQ): Decouple services, handle traffic spikes, enable async processing. Use when you need to process events at scale.
+
+Horizontal vs Vertical Scaling:
+- Vertical: bigger machine (limits exist)
+- Horizontal: more machines (preferred for scale)
+
+Sharding: Split database across multiple machines by a shard key (user ID, geography). Allows nearly unlimited scale but adds complexity.
+
+Replication: Copy data across multiple servers for redundancy and read scaling. Primary-replica setup is common.
+
+DESIGN EXAMPLES TO PRACTICE
+1. URL Shortener (bit.ly) — good starter, teaches hashing and redirects
+2. Twitter/Instagram feed — teaches fanout, caching, social graphs
+3. YouTube — teaches video storage, streaming, CDN
+4. Uber/Lyft — teaches geospatial data, real-time matching
+5. WhatsApp — teaches messaging, presence, push notifications
+6. Google Drive — teaches file storage, sync, permissions
+
+TRADEOFFS TO DISCUSS
+Always discuss tradeoffs — this is what separates good candidates:
+- Consistency vs Availability (CAP theorem)
+- SQL vs NoSQL
+- Synchronous vs Asynchronous processing
+- Monolith vs Microservices
+
+RESOURCES
+- System Design Primer on GitHub (free, comprehensive)
+- Designing Data-Intensive Applications (book by Martin Kleppmann)
+- ByteByteGo newsletter and YouTube channel
+- Grokking the System Design Interview (paid but popular)

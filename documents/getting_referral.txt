@@ -1,0 +1,55 @@
+HOW TO GET A REFERRAL AT A TECH COMPANY — Insider Advice
+
+WHY REFERRALS MATTER
+At big tech companies, referred candidates are 5-10x more likely to get an interview than cold applicants. Referrals skip the ATS filter and often go directly to a recruiter or hiring manager. If you know someone at your target company, a referral is worth more than any resume optimization.
+
+WHO CAN REFER YOU?
+Any employee at the company can submit a referral — it doesn't have to be someone in your target team or even your target role. The referral just gets your resume in front of a recruiter with a stamp of trust. Even a junior engineer's referral carries weight.
+
+HOW TO ASK FOR A REFERRAL — THE RIGHT WAY
+Bad: "Hey, can you refer me to Google?"
+Good: "Hi [Name], I came across your profile and saw you work at Google as a [role]. I'm a [your background] currently applying for the [specific role] on the [team] team. I'd love to connect and hear about your experience there. Would you be open to a 15-minute chat?"
+
+Always:
+- Be specific about the role you want
+- Show you've done research
+- Ask to connect first, not for the referral immediately
+- Make it easy for them — offer to send your resume and the job link
+
+WHERE TO FIND PEOPLE TO ASK
+1. LinkedIn — search "[Company] [Your School]" to find alumni
+2. CodePath alumni network
+3. Former classmates and professors
+4. Hackathon connections
+5. Tech Twitter/X community
+6. Meetup.com tech events
+
+COLD OUTREACH ON LINKEDIN
+Connection rate message (under 300 characters):
+"Hi [Name]! I'm a [role] interested in [Company]. I noticed you work there and went to [shared school/bootcamp]. Would love to connect and learn about your experience."
+
+Follow-up after connecting:
+"Thanks for connecting! I'm currently applying for [role] at [Company] and would love to hear about your experience there. Would you be open to a quick 15-minute chat this week or next?"
+
+WHAT HAPPENS AFTER THEY AGREE
+1. Send them your resume (PDF)
+2. Send the exact job link
+3. Write a 2-3 sentence summary of why you're a fit
+4. Make it zero effort for them — they just click "submit referral"
+
+REFERRAL ETIQUETTE
+- Don't ask someone you've never spoken to for a referral immediately
+- Don't ask multiple employees at the same company simultaneously
+- Always thank them regardless of outcome
+- Update them when you hear back — they stuck their neck out for you
+- If you get the job, buy them coffee or send a thoughtful thank you
+
+WHEN YOU DON'T KNOW ANYONE
+1. Apply cold AND work on getting a referral simultaneously
+2. Attend virtual and in-person company info sessions
+3. Engage with engineers on LinkedIn — comment thoughtfully on their posts
+4. Contribute to open source projects that company engineers maintain
+5. Reach out to recruiters directly on LinkedIn
+
+REFERRAL BONUS CONTEXT
+Most tech companies pay employees $2,000-$10,000 for referrals that get hired. Employees are often motivated to help — it's good for them too if you're qualified.
