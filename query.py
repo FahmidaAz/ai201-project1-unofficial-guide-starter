@@ -135,8 +135,9 @@ def ask(question):
 TEST_QUERIES = [
     "What should I put on my resume if I have no experience?",
     "How do I negotiate a higher salary offer?",
-    "How many LeetCode problems do I need before interviews?",
-    "What is the best recipe for chocolate chip cookies?",  # out-of-domain — should refuse
+    "How many LeetCode problems do I need to solve before interviews?",
+    "Is a coding bootcamp worth it for getting a tech job?",
+    "How do I get a referral at a big tech company?",
 ]
 
 if __name__ == "__main__":
